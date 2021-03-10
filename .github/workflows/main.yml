@@ -33,3 +33,4 @@ jobs:
       - run: |
           pip install selenium
           python main.py -u ${{ secrets.USERNAME }} -p ${{ secrets.PASSWORD }}
+          python main.py -u ${{ secrets.USERNAME2 }} -p ${{ secrets.PASSWORD2 }}
