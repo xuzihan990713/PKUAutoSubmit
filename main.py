@@ -252,8 +252,8 @@ if __name__ == '__main__':
     else:  # windows
         phantomjs_path = os.path.join('phantomjs', 'phantomjs-windows.exe')
 
-    driver = PhantomJS(executable_path=phantomjs_path)
-
+    #driver = PhantomJS(executable_path=phantomjs_path)
+    driver= PhantomJS(executable_path=sys_path(), service_args=['--ignore-ssl-errors=true','--ssl-protocol=TLSv1'])
     run(driver, args.username, args.password, args.campus, args.reason,
         args.destination, args.track, args.habitation, args.district,
         args.street)
