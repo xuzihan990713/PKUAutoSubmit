@@ -12,7 +12,7 @@ import copy
 import sys
 import os
 
-TIMEOUT = 20
+TIMEOUT = 60
 TIMESLP = 3
 
 
@@ -259,3 +259,4 @@ if __name__ == '__main__':
         args.street)
 
     driver.close()
+    time.sleep(3)
