@@ -6,7 +6,7 @@ tets
 感谢 [hayschan](https://github.com/hayschan) 撰写的[使用文档](https://haysc.tech/2020/10/17/pku-auto-beian/)，强烈推荐在使用本项目前阅读。
 test
 
-## What did I do
+## What did I do  
 
 没做什么工作，只是合并为一个 main.py 然后改了改参数读取方式。然后写了个 Github Actions 的配置文件，每天自动执行两次。你可以 fork 本仓库然后在自己仓库的 Settings/Secrets 中设置 USERNAME 和 PASSWORD 两项，一劳永逸。如果你想使用其他填报参数，请自行修改 `.github/workflows/main.yml`，参数名称参见 `main.py`。
 
@@ -27,7 +27,7 @@ PKU一键出入校备案小工具 v1.9.1 (2020.10.10)
 **Update:** 现已支持 mac OS（感谢 JuiAnHsu 的 contribution），欢迎各使用 mac OS 系统的小伙伴们参与使用与开发升级
 
 **Note:** 由于 `run.bat` 和 `autoRun.bat` 为 Windows 批处理程序，无法在 mac OS 上运行，故 mac OS 中的定时运行功能仍在开发中
-
+si
 **Note:** 本项目已上传至[北大网盘](https://disk.pku.edu.cn/#/link/238B48AD673833F65A9EE34181654B07)
 
 **Update:** 修复填报入校备案时可能出现的会话失效导致填报失败的问题
